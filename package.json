@@ -1,0 +1,19 @@
+{
+  "name": "doom-fire",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "git@github.com:alexnorton/doom-fire.git",
+  "author": "<alex@alexnorton.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.3.3333"
+  },
+  "scripts": {
+    "build": "tsc --declaration",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist/"
+  ]
+}
